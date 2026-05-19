@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Get In Touch — TheGrowthLoop</title>
+<meta name="description" content="Let's build your growth journey. Have questions, collaborations, or learning inquiries? We'd love to hear from you." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">the<span>growth</span>loop</a>
+    <nav class="nav-links">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Get In Touch</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="link-plain">Get In Touch</a>
+      <a href="programs.html" class="btn btn-primary">Start Your Growth Journey</a>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="container">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Get In Touch</a>
+      <a href="programs.html" class="btn btn-primary">Start Your Growth Journey</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="planet" aria-hidden="true"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow reveal">GET IN TOUCH</p>
+    <h1 class="display reveal">Let's build your <span class="grad">growth journey.</span></h1>
+    <p class="lead reveal">Have questions, collaborations, or learning inquiries? We'd love to hear from you.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+    <form class="contact-form reveal" onsubmit="event.preventDefault(); this.querySelector('.form-status').textContent='Thanks! We\'ll be in touch soon.'; this.reset();">
+      <div class="field"><label>Full Name</label><input type="text" required placeholder="Your name" /></div>
+      <div class="field"><label>Email Address</label><input type="email" required placeholder="you@example.com" /></div>
+      <div class="field"><label>Subject</label><input type="text" required placeholder="What's this about?" /></div>
+      <div class="field"><label>Message</label><textarea rows="5" required placeholder="Tell us a bit more…"></textarea></div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="form-status muted small mt"></p>
+    </form>
+
+    <aside class="contact-info reveal">
+      <h2 class="h-trust">Get in touch</h2>
+      <div class="info-block"><p class="foot-head">Email</p><a href="mailto:hello@thegrowthloop.in" class="info-link">hello@thegrowthloop.in</a></div>
+      <div class="info-block"><p class="foot-head">Instagram</p><a href="https://instagram.com/thegrowthloop" class="info-link">@thegrowthloop</a></div>
+      <div class="info-block"><p class="foot-head">Community</p><p class="muted small">Join our learner community and stay connected.</p><a href="community.html" class="btn btn-ghost mt">Join The Community</a></div>
+    </aside>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div><a href="index.html" class="brand">the<span>growth</span>loop</a><p class="muted small mt">TheGrowthLoop is a modern learning platform focused on practical digital skills, future-ready education, and continuous growth.</p></div>
+      <div><p class="foot-head">Quick Links</p><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li><li><a href="community.html">Community</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><p class="foot-head">Connect</p><ul><li><a href="mailto:hello@thegrowthloop.in">hello@thegrowthloop.in</a></li><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">YouTube</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><p>© 2026 TheGrowthLoop. Powered by Stellarminds.</p><p>Built for ambitious learners.</p></div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
