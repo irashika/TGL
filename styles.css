@@ -218,7 +218,8 @@ img {
   display: none;
   gap: 2rem;
   font-size: 14px;
-  color: var(--muted)
+   color: #fcfaf6cf;
+  /* color: var(--muted) */
 }
 
 @media(min-width:900px) {
@@ -297,7 +298,8 @@ img {
   flex-direction: column;
   gap: .9rem;
   font-size: 15px;
-  color: var(--muted)
+   color: #fcfaf6cf;
+  /* color: var(--muted) */
 }
 
 .mobile-menu a.btn {
